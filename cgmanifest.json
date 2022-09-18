@@ -1,0 +1,16 @@
+{
+	"registrations": [
+		{
+			"component": {
+				"type": "git",
+				"git": {
+					"name": "algacss/vscode-extension",
+					"repositoryUrl": "https://github.com/algacss/vscode-extension"
+				}
+			},
+			"license": "SEE LICENSE IN license.txt",
+			"version": "0.0.1-wood-1"
+		}
+	],
+	"version": 1
+}

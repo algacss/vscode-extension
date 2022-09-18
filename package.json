@@ -1,0 +1,41 @@
+{
+  "name": "alga",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.0.1-wood-1",
+  "publisher": "algacss",
+  "license": "SEE LICENSE IN license.txt",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "alga",
+        "aliases": [
+          "Alga",
+          "alga"
+        ],
+        "extensions": [
+          ".alga"
+        ],
+        "mimetypes": [
+          "text/x-alga",
+          "text/alga"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "alga",
+        "scopeName": "source.css.alga",
+        "path": "./syntaxes/alga.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/algacss/vscode-extension.git"
+  }
+}
