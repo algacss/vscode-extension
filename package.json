@@ -2,8 +2,9 @@
   "name": "alga",
   "displayName": "%displayName%",
   "description": "%description%",
-  "version": "0.0.1-wood-1",
-  "publisher": "algacss",
+  "icon": "alga-css.png",
+  "version": "0.0.2",
+  "publisher": "tedirghazali",
   "license": "SEE LICENSE IN license.txt",
   "engines": {
     "vscode": "*"
@@ -23,6 +24,10 @@
           "text/x-alga",
           "text/alga"
         ],
+        "icon": {
+          "light": "alga-css.png",
+          "dark": "alga-css.png"
+        },
         "configuration": "./language-configuration.json"
       }
     ],
